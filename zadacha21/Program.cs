@@ -23,5 +23,5 @@
 
         
         double result = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2) + Math.Pow((z2 - z1), 2));
-        Console.WriteLine($"A ({x1},{y1}); B ({x2},{y2}) = {result:f3}");
+        Console.WriteLine($"A ({x1},{y1}); B ({x2},{y2}) = {result:f2}");
  
