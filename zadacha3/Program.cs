@@ -11,7 +11,7 @@ namespace Seminar3
          static void Main(string[] args)
         {
 
- System.Console.WriteLine("Введите пятизначное число: ");
+ System.Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine ());
 
 string str = Convert.ToString (number);
@@ -38,20 +38,3 @@ else
         }
     }
 }
-        
-
-    
-    
-    
-    
-    
-    
-    // System.Console.WriteLine("Число +{number} является палиндромом.");
-    // }
-    // else
-    // {
-    //   System.Console.WriteLine("Число +{number}  не является палиндромом.");  
-    // }
-//         }
-//     }
-// }
